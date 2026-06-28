@@ -2,10 +2,64 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Ecobot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoBot 🌱</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>🌱 Bienvenido a Ecobot</h1>
-    <p>Mi primera página web.</p>
+
+<div class="contenedor">
+
+    <header class="encabezado">
+        <h1>🌱 EcoBot</h1>
+        <p>Tu asistente ecológico</p>
+    </header>
+
+    <main id="chat" class="chat">
+
+        <div class="mensaje bot">
+            <div class="avatar">🌱</div>
+
+            <div class="texto">
+                <strong>EcoBot</strong><br>
+                ¡Hola! Soy EcoBot. 😊<br><br>
+
+                Puedes preguntarme sobre:
+                <ul>
+                    <li>♻️ Reciclaje</li>
+                    <li>💧 Agua</li>
+                    <li>⚡ Energía</li>
+                    <li>🌳 Bosques</li>
+                    <li>🐼 Animales</li>
+                    <li>🌍 Contaminación</li>
+                    <li>🔥 Calentamiento global</li>
+                </ul>
+
+                Escribe una pregunta para comenzar.
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="barra">
+
+        <input
+            type="text"
+            id="entrada"
+            placeholder="Escribe tu pregunta..."
+            autocomplete="off"
+        >
+
+        <button id="enviar">
+            Enviar
+        </button>
+
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
