@@ -1,2 +1,2 @@
-# Ecobot
-Chatbot ecológico creado para un proyecto escolar.
+# EcoBot
+Proyecto web.
